@@ -4,6 +4,12 @@ from preprocessing import preprocessing
 from sentiment_labeling import sentiment_labeling
 from machine_learning import machine_learning
 from implementation import implementation
+import nltk
+
+# Download necessary NLTK data
+nltk.download('punkt')
+nltk.download('stopwords')
+nltk.download('vader_lexicon')
 
 # Initialize session state variables
 if 'step' not in st.session_state:
