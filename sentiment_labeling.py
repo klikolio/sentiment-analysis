@@ -8,7 +8,7 @@ def translate_text(text, translator):
         return ""
     try:
         translation = translator.translate(text, src='id', dest='en')
-        return translation.text
+        return translation.text.lower()
     except Exception as e:
         return str(e)
 

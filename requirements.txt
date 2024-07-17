@@ -3,7 +3,7 @@ pandas
 nltk
 Sastrawi
 swifter
-googletrans==3.1.0a0
+googletrans==4.0.0-rc1
 scikit-learn
 seaborn
 matplotlib
